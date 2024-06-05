@@ -231,22 +231,22 @@ body{
       width: 80%; /* Ancho de la tabla */
     }
     button {
-        width: fit-content;
-        min-width: 100px;
+        width: max-content;
+        min-width: 300px;
         height: 45px;
         padding: 8px;
         border-radius: 5px;
-        border: 2.5px solid #E0E1E4;
+        border: 2.5px solid #000000;
         box-shadow: 0px 0px 20px -20px;
         cursor: pointer;
-        background-color: rgb(255, 251, 0);
+        background-color: 	#ff8000;
         transition: all 0.2s ease-in-out 0ms;
         user-select: none;
         font-family: 'Poppins', sans-serif;
       }
       
       button:hover {
-        background-color: #ff9500;
+        background-color:	#ff8000;
         box-shadow: 0px 0px 20px -18px;
       }
       
