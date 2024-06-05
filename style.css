@@ -209,7 +209,7 @@ body{
        
     }
     .publicidad{
-      color: rgba(0, 248, 41, 0.808);
+      color: #F39C12;
       font-family:inherit;
       font-size: 50px;
       border: 5px solid #f5f2f200;
@@ -222,7 +222,7 @@ body{
     }
     button {
       background: #F39C12;
-      font-family: inherit;
+      font-family: RED inherit;
       padding: 0.6em 1.3em;
       font-weight: 900;
       font-size: 20px;
