@@ -112,13 +112,13 @@ body{
       color: rgba(39, 167, 45, 0);
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: 50px;
-      border: 5px solid #aa171700;
+      border: 5px solid #d70b0b00;
       padding: 8px;
       text-align: center;
       margin-top: 14%;
-      margin-left: 14%;
+      margin-left: 8%;
       border-collapse: collapse;
-      width:70%; /* Ancho de la tabla */
+      width:84%; /* Ancho de la tabla */
   
     }
     .micheladas{
@@ -127,12 +127,16 @@ body{
       border-collapse: collapse;
       width: 80%; /* Ancho de la tabla */
 
-      /* Estilos para las filas ocultas */
-    .fila-oculta {
-        display: none;
-      }
+      
   
     }
+    /* Estilos para las filas ocultas */
+    .fila-oculta {
+        
+    text-align: center;
+    display: none;
+    
+      }
     
     .cerveza {
       margin-top: 20%;
@@ -165,13 +169,13 @@ body{
     }
     
     th{
-      line-height: 0.3;
+      line-height: 0.1;
       color: rgb(244, 248, 245);
-      font: oblique bold 20px sans-serif;
+      font: oblique bold 23px sans-serif;
       margin-left: 0%;
     }
     h2{
-      line-height: 1.1;
+      line-height: 0.1;
       color: #f6f6f6;
       font-size: 35px;
     }
@@ -193,6 +197,12 @@ body{
       
       color: #fbff00;
       font: oblique bold 90px status-bar;
+      margin: auto;
+    }
+    h6{
+        line-height: 0;
+      color: #ffffff00;
+      font: oblique bold 20px sans-serif;
       margin: auto;
     }
     p{
@@ -222,7 +232,7 @@ body{
     }
     button {
       background: #F39C12;
-      font-family: RED inherit;
+      font-family: inherit;
       padding: 0.6em 1.3em;
       font-weight: 900;
       font-size: 20px;
